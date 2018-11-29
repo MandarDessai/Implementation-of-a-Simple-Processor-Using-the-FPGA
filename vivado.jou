@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Mon Oct  1 12:08:37 2018
+# Process ID: 10760
+# Current directory: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent756 C:\Users\Dara Ros\Google Drive\UCincy\FS18\EECE6017C\Lab\Lab1\Lab1.xpr
+# Log file: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab1/vivado.log
+# Journal file: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab1/Lab1.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/Dara Ros/Downloads/Lab2/Lab2/Lab2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+close_project
+open_project {C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab1/Lab1.xpr}
+update_compile_order -fileset sources_1
+close_sim
+close_project
+open_project {C:/Users/Dara Ros/Downloads/Lab2/Lab2/Lab2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation

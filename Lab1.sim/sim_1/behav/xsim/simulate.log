@@ -1,0 +1,22 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Op 	IN1 	IN2 	Result
+00 	xxxx 	xxxx 	0xxxx
++----------------------------+
+Op: ADD
+01 	0000 	0000 	00000
+01 	1111 	1111 	11110
+01 	0101 	1010 	01111
+01 	1010 	0101 	01111
+Op: NOT IN1
+10 	1010 	0101 	10101
+Op: 1-BIT LEFT SHIFT IN1
+Op: AND
+11 	0000 	0000 	00000
+11 	1111 	1111 	11110
+11 	0101 	1010 	01010
+11 	1010 	0101 	10100
+$finish called at time : 470 ns : File "C:/Users/Dara Ros/Documents/EECE6017C/Lab1/Lab1.srcs/sim_1/new/main_tb.v" Line 89
+Stopped at time : 470 ns : File "C:/Users/Dara Ros/Documents/EECE6017C/Lab1/Lab1.srcs/sim_1/new/main_tb.v" Line 90
++----------------------------+
+
